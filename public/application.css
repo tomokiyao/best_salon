@@ -1,16 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 header {
-  height: 30px;
+  height: 40px;
   padding: 10px 8%;
   line-height: 40px;
 }
-.logo {
-  font-weight: bold;
-  font-size: 25px;
-  color: #96c3ec;
+header img {
+  margin-top: -10px;
 }
+@media screen and (max-width: 480px) {
+  header {
+    height: 30px;
+    padding: 10px 3%;
+    line-height: 30px;
+  }
+  header img {
+    margin-top: -15px;
+  }
+}
+
 footer {
   margin-top: 50px;
-  height: 150px;
+  height: 100px;
   padding: 10px 8%;
   line-height: 150px;
   text-align: center;
@@ -24,7 +42,7 @@ footer {
 
 .image-content {
   height: 450px;
-  background-image: url("top-image.jpg");
+  background-image: url("top.png");
   background-size: cover;
   padding: 10px 8%;
 }
@@ -32,11 +50,13 @@ footer {
   margin-top: 120px;
   font-size: 40px;
   color: #96c3ec;
+  text-shadow: 1px 1px 2px #505152, 0 0 1em #96c3ec, 0 0 0.2em #96c3ec;
 }
 .title {
   font-size: 50px;
   font-weight: bold;
   color: #96c3ec;
+  text-shadow: 1px 1px 2px #505152, 0 0 1em #96c3ec, 0 0 0.2em #96c3ec;
 }
 @media screen and (max-width: 480px) {
   .image-content {
@@ -44,11 +64,11 @@ footer {
     padding: 10px 8%;
   }
   .sub-title {
-    margin-top: 60px;
+    margin-top: 90px;
     font-size: 15px;
   }
   .title {
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 30px;
     font-weight: bold;
   }
@@ -258,4 +278,5 @@ h2 {
     font-size: 15px;
     width: 80%;
   }
+}
 }

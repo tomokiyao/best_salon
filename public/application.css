@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   border: 0;
@@ -32,7 +33,7 @@ footer {
   padding: 10px 8%;
   line-height: 150px;
   text-align: center;
-  background-color: #DDD;
+  background-color: #ddd;
 }
 @media screen and (max-width: 480px) {
   footer {
@@ -42,17 +43,12 @@ footer {
 
 .image-content {
   height: 450px;
-  background-image: url("top.png");
+  background-image: url('top.png');
   background-size: cover;
   padding: 10px 8%;
 }
-.sub-title {
-  margin-top: 120px;
-  font-size: 40px;
-  color: #96c3ec;
-  text-shadow: 1px 1px 2px #505152, 0 0 1em #96c3ec, 0 0 0.2em #96c3ec;
-}
 .title {
+  margin-top: 120px;
   font-size: 50px;
   font-weight: bold;
   color: #96c3ec;
@@ -74,7 +70,6 @@ footer {
   }
 }
 
-
 h2 {
   font-size: 30px;
 }
@@ -83,13 +78,13 @@ h2 {
 }
 .support {
   text-align: center;
-  border: 2px solid #9EADBA;
+  border: 2px solid #9eadba;
   margin-top: 20px;
 }
 .support-content {
   height: 250px;
   padding: 70px 8%;
-  border: 1px solid #9EADBA;
+  border: 1px solid #9eadba;
   margin: 50px;
 }
 .support-category {
@@ -137,12 +132,12 @@ h2 {
 }
 .job-example {
   text-align: center;
-  border: 2px solid #9EADBA;
+  border: 2px solid #9eadba;
   margin-top: 40px;
 }
 .example-content {
   height: 500px;
-  border: 1px solid #9EADBA;
+  border: 1px solid #9eadba;
   margin: 50px auto;
   width: 70%;
 }
@@ -152,7 +147,7 @@ h2 {
   font-weight: bold;
   font-size: 25px;
   background-color: #96c3ec;
-  border-bottom: 1px solid #9EADBA;
+  border-bottom: 1px solid #9eadba;
 }
 .catchphrase {
   margin-top: 60px;
@@ -204,7 +199,6 @@ h2 {
   }
 }
 
-
 h2 {
   font-size: 30px;
 }
@@ -213,7 +207,7 @@ h2 {
 }
 .private-job {
   text-align: center;
-  border: 2px solid #9EADBA;
+  border: 2px solid #9eadba;
   margin-top: 40px;
 }
 .private-job-content {
@@ -242,7 +236,6 @@ h2 {
   }
 }
 
-
 h2 {
   font-size: 30px;
 }
@@ -251,7 +244,7 @@ h2 {
 }
 .about {
   text-align: center;
-  border: 2px solid #9EADBA;
+  border: 2px solid #9eadba;
   margin-top: 40px;
 }
 .about-content {
@@ -278,5 +271,4 @@ h2 {
     font-size: 15px;
     width: 80%;
   }
-}
 }

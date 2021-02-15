@@ -59,14 +59,9 @@ footer {
     height: 250px;
     padding: 10px 8%;
   }
-  .sub-title {
+  .title {
     margin-top: 90px;
     font-size: 15px;
-  }
-  .title {
-    margin-top: 0px;
-    font-size: 30px;
-    font-weight: bold;
   }
 }
 
